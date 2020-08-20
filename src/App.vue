@@ -28,7 +28,7 @@ export default {
 //не дуже зрозумів
   computed:{
     hide(){
-      return this.toDoList.length >= 3 ? 'hidden':''
+      return this.toDoList.length >= 10 ? 'hidden':''
     }
     
   },
